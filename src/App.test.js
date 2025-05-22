@@ -1,3 +1,4 @@
+// đoạn code javascript dùng để viết test cho function (react)
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
@@ -6,4 +7,3 @@ test('renders Hello CI/CD', () => {
   const heading = screen.getByText(/hello cô cảnh nè alo 123/i);
   expect(heading).toBeInTheDocument();
 });
-// đoạn code javascript dùng để viết test cho function (react)

@@ -1,4 +1,4 @@
-// App.js
+// 1 hàm function trong javascript ( cụ thể react)
 import React from 'react';
 
 function App() {

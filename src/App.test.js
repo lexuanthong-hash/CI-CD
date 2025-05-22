@@ -3,7 +3,7 @@ import App from './App';
 
 test('renders Hello CI/CD', () => {
   render(<App />);
-  const heading = screen.getByText(/hello cô cảnh nè huhuhuadeara/i);
+  const heading = screen.getByText(/hello cô cảnh nè alo 123/i);
   expect(heading).toBeInTheDocument();
 });
 // đoạn code javascript dùng để viết test cho function (react)

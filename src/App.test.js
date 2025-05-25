@@ -1,9 +1,9 @@
-// đoạn code javascript dùng để viết test cho function (react)
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
 test('renders Hello CI/CD', () => {
   render(<App />);
-  const heading = screen.getByText(/Chào cô cảnh 123/i);
+  const heading = screen.getByText(/Chào cô cảnh xinh đẹp/i);
   expect(heading).toBeInTheDocument();
 });

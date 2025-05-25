@@ -7,6 +7,6 @@ function App() {
       <h1>Chào cô cảnh xinh đẹp</h1>
     </div>
   );
-}
+
 
 export default App;

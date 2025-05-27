@@ -4,7 +4,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <h1>cô cảnh xinh gái</h1>
+      <h1>chào cô cảnh nhé</h1>
     </div>
   );
 }

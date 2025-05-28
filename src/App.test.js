@@ -7,6 +7,6 @@ import App from './App';
 
 test('renders Hello CI/CD', () => {
   render(<App />);
-  const heading = screen.getByText(/Em Chào Cô Cảnh/i);
+  const heading = screen.getByText(/Cô Cảnh Xinh Gái/i);
   expect(heading).toBeInTheDocument();
 });
